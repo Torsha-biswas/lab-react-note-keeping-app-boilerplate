@@ -1,0 +1,42 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3560c5;
+}
+
+h3 {
+    color: antiquewhite;
+    
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 15px;
+}
+
+.input-text {
+    padding: 10px;
+    background-color: #3560c5;
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 50vh;
+    width: 40vw;
+    color: white;
+    font-size: 15px;
+    box-shadow: 7px 7px 24px -1px #00000065;
+}
+
+.output-text {
+    color: antiquewhite;
+    padding: 20px;
+    width: 40vw;
+    height: 70vh;
+    background-color: #464646;
+    box-shadow: 7px 7px 24px -1px #00000065;
+    font-size: 23px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
